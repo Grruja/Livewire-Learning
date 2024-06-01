@@ -11,5 +11,7 @@
         <livewire:hello-world />
         <hr>
         <livewire:counter />
+        <hr>
+        <livewire:todo />
     </body>
 </html>
