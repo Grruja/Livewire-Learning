@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Livewire-Learning</title>
 </head>
-<body>
-    <livewire:hello-world />
-</body>
+    <body>
+        <livewire:hello-world />
+        <hr>
+        <livewire:counter />
+    </body>
 </html>
