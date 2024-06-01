@@ -8,10 +8,6 @@
     <title>Livewire-Learning</title>
 </head>
     <body>
-        <livewire:hello-world />
-        <hr>
-        <livewire:counter />
-        <hr>
-        <livewire:todo />
+        <h1>Welcome</h1>
     </body>
 </html>

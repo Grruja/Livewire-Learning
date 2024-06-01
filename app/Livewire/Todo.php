@@ -2,8 +2,10 @@
 
 namespace App\Livewire;
 
+use Livewire\Attributes\Title;
 use Livewire\Component;
 
+#[Title('Todo')]
 class Todo extends Component
 {
     public string $todo = '';
@@ -12,6 +14,11 @@ class Todo extends Component
         'Wash dishes',
         'Make bread',
     ];
+
+    public function updatedTodo(string $value): void
+    {
+        $this->todo = strtoupper($value);
+    }
 
     public function add(): void
     {
