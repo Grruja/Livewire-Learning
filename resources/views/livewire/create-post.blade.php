@@ -1,6 +1,8 @@
 <div>
     <h2>New Post</h2>
 
+    <p>Current Title: <span x-text="$wire.title.toUpperCase()"></span></p>
+
     <form wire:submit="save">
         <label for="title">Title</label>
         <br>
@@ -12,6 +14,8 @@
         <label for="content">Content</label>
         <br>
         <textarea wire:model="content"></textarea>
+        <br>
+        <small>Characters: <span x-text="$wire.content.length"></span></small>
         <br>
         @error('content') <em>{{ $message }}</em> @enderror
 
