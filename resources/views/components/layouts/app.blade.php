@@ -21,6 +21,10 @@
             .current {
                 font-weight: bold;
             }
+
+             .archived {
+                 background: gray;
+             }
         </style>
     </body>
 </html>

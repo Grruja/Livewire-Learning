@@ -13,4 +13,10 @@ class Posts extends Model
         'title',
         'content',
     ];
+
+    public function archive(): void
+    {
+        $this->is_archived = true;
+        $this->save();
+    }
 }
