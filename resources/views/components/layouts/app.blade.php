@@ -11,6 +11,7 @@
             <a href="/" @class(['current' => request()->is('/')])>Todo</a>
             <a href="/counter" @class(['current' => request()->is('counter')])>Counter</a>
             <a href="/posts" @class(['current' => request()->is('posts')])>Posts</a>
+            <a href="/create-post" @class(['current' => request()->is('create-post')])>Create Posts</a>
             <hr>
         </nav>
 
